@@ -19,4 +19,8 @@ public class Student {
         this.grade = grade;
     }
 
+    void getStudent() {
+        System.out.println(this.name + " , " +  this.age + " , " + this.grade);
+    }
+
 }

@@ -9,4 +9,14 @@ public class School {
         this.name = name;
         System.out.println("[School] 생성자가 호출되었습니다." + this.name);
     }
+
+    void getAllStudentsInSchool(){
+        for (int i = 0; i < room1.students.length; i++) {
+            room1.getStudentInRoom(i);
+        }
+
+        for (int i = 0; i < room2.students.length; i++) {
+            room2.getStudentInRoom(i);
+        }
+    }
 }

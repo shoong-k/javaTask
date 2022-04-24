@@ -8,7 +8,17 @@ public class Room {
 
     Room(){}
 
-    void makeRoom(String name, int roomNumber, int roomFloor) {
+    Room(String name, int roomNumber, int roomFloor) {
+        this.name = name;
+        this.roomNumber = roomNumber;
+        this.roomFloor = roomFloor;
+
+        for (int i = 0; i < students.length; i++) {
+             students[i] = new Student();
+        }
+    }
+
+    void setRoom(String name, int roomNumber, int roomFloor) {
         this.name = name;
         this.roomNumber = roomNumber;
         this.roomFloor = roomFloor;
@@ -17,4 +27,9 @@ public class Room {
             students[i] = new Student();
         }
     }
+
+    void getStudentInRoom(int studentNumber) {
+        students[studentNumber].getStudent();
+    }
+
 }
