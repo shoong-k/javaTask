@@ -40,8 +40,6 @@ public class Main {
         }
 
         //School에 있는 모든 Student - School에서 Room의 메서드를 사용하여 출력해주세요.
-
-
         //School에 있는 모든 Student - School의 메서드를 사용하여 출력해주세요.
         school.getAllStudentsInSchool();
     }

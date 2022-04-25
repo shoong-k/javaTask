@@ -22,5 +22,4 @@ public class Student {
     void getStudent() {
         System.out.println(this.name + " , " +  this.age + " , " + this.grade);
     }
-
 }
